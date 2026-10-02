@@ -283,8 +283,7 @@ private func warpDropSendFiles(_ files: [URL], overlayOptimisers: [Optimiser], e
     let task = Task.detached { () -> String in
         try await client.send(
             files: files,
-            multi: true, // serve every receiver at once instead of one-at-a-time
-            maxReceivers: 20, // 0 = server default (256); old backends ignore multi and fall back to sequential
+            keep: true,
             onRoomCreated: { [roomIDRef] roomID in
                 roomIDRef.value = roomID
                 Task { @MainActor in
@@ -352,8 +351,7 @@ func warpDropSendAndWait(url: URL, optimiser: Optimiser, expiration: TimeInterva
     let task = Task.detached { () -> String in
         try await client.send(
             files: [url],
-            multi: true, // serve every receiver at once instead of one-at-a-time
-            maxReceivers: 20, // 0 = server default (256); old backends ignore multi and fall back to sequential
+            keep: true,
             onRoomCreated: { [roomIDRef] roomID in
                 roomIDRef.value = roomID
                 Task { @MainActor in
