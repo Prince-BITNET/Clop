@@ -1,24 +1,6 @@
 {
-  "originHash" : "53ab27e2aa36fe5d1228d593d0c9fa0ec2f87b33a13c137a1e35ff924ba88a00",
+  "originHash" : "534afb3ffd22c3bc34879754f33adc0f5d197c828d4877582839a6669ff0927a",
   "pins" : [
-    {
-      "identity" : "appreceiptvalidator",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/alin23/AppReceiptValidator",
-      "state" : {
-        "revision" : "e35794a03103839e024f71534e263310038c930d",
-        "version" : "1.2.0"
-      }
-    },
-    {
-      "identity" : "asn1decoder",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/IdeasOnCanvas/ASN1Decoder",
-      "state" : {
-        "revision" : "1fa1e9c68c27cbed56e2a997605ae2e808cf4d98",
-        "version" : "1.8.2"
-      }
-    },
     {
       "identity" : "defaults",
       "kind" : "remoteSourceControl",
@@ -47,12 +29,12 @@
       }
     },
     {
-      "identity" : "launchatlogin-modern",
+      "identity" : "launchatlogin",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/sindresorhus/LaunchAtLogin-Modern",
+      "location" : "https://github.com/FuzzyIdeas/LaunchAtLogin",
       "state" : {
-        "revision" : "a04ec1c363be3627734f6dad757d82f5d4fa8fcc",
-        "version" : "1.1.0"
+        "revision" : "5173435c65730c87b8e8075955d90330bed641b5",
+        "version" : "1.2.0"
       }
     },
     {
@@ -61,7 +43,7 @@
       "location" : "https://github.com/FuzzyIdeas/Lowtech",
       "state" : {
         "branch" : "ventura",
-        "revision" : "89812896d072aa0928833b0d64f18906df09d429"
+        "revision" : "26983a68d3d4dd594e0dd144126bd72af8dbf516"
       }
     },
     {
@@ -78,8 +60,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/alin23/PaddleSPM",
       "state" : {
-        "revision" : "7de514e10acd65e13eec1f5b75b7f18f64dbd775",
-        "version" : "4.5.1"
+        "revision" : "7afd481ee94be2b7c28ac0c16fb89d84ba6dd17d",
+        "version" : "4.5.5"
       }
     },
     {
@@ -119,15 +101,6 @@
       }
     },
     {
-      "identity" : "swift-crypto",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-crypto",
-      "state" : {
-        "revision" : "60f13f60c4d093691934dc6cfdf5f508ada1f894",
-        "version" : "2.6.0"
-      }
-    },
-    {
       "identity" : "swift-ignore",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/alin23/swift-ignore",
@@ -146,15 +119,6 @@
       }
     },
     {
-      "identity" : "swiftdate",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/malcommac/SwiftDate",
-      "state" : {
-        "revision" : "5d943224c3bb173e6ecf27295611615eba90c80e",
-        "version" : "7.0.0"
-      }
-    },
-    {
       "identity" : "swiftui-system-colors",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/diniska/swiftui-system-colors",
@@ -170,15 +134,6 @@
       "state" : {
         "revision" : "0e95abd03bb90c906b14c96669557830dbc81e07",
         "version" : "2.1.0"
-      }
-    },
-    {
-      "identity" : "webrtc",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/stasel/WebRTC.git",
-      "state" : {
-        "revision" : "1048f8396529c10e259f8240d0c2cd607a13defd",
-        "version" : "130.0.0"
       }
     }
   ],
